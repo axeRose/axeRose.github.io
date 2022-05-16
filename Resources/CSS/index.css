@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700&display=swap');
+
+/* NavBar*/
+
+
+/* Main*/
+
+:root {
+    /*   color variables */
+    --clr-primary: #6aeeb5;
+    --clr-primary-hover: #29e6a7;
+    --clr-primary-dark: #039d69;
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+  
+    /*   border radius */
+    --radius: 0.2rem;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(17,17,17);;
+  }
+  
+  .nav-list {
+    background-color: rgb(17,17,17);
+    box-shadow: 0px 0.5px 0px 0px var(--clr-gray200);
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 2rem;
+    color: #f6f6f6;
+    border-radius: 4px;
+    padding: 1.3rem;
+    text-transform: uppercase;
+
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #A1A1A1;
+    
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .nav-item :hover {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 1.3rem;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-left: 2rem;
+    align-items: center;
+    
+}
+
+.hero-main{
+    display: inline-flexbox;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+h1 {
+    color: #EAEAEA; 
+    font-size: 51px; 
+    line-height: 160%;
+    float: left;
+    width: 55%;
+    
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 17px;
+    font-weight: 510;
+    width: 55%;
+    flex-wrap: wrap;
+    float: left;
+    
+}
+
+.axel-photo{
+    height: 30rem;
+    width: 25rem;
+    float: right; 
+    border-radius: 7%;
+    margin-right: 5rem;
+    padding: 1.5rem;
+    display: inline-flexbox;
+    
+}
+
+.contact-icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+/*
+body {
+    
+}
+*/
